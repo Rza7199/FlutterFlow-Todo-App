@@ -13,7 +13,7 @@ class AuthUserInfo {
   final String? photoUrl;
   final String? phoneNumber;
 }
-
+//Flutter is awesome
 abstract class BaseAuthUser {
   bool get loggedIn;
   bool get emailVerified;
