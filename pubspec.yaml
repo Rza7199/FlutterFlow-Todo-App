@@ -129,6 +129,8 @@ flutter:
     - assets/lottie_animations/
     - assets/rive_animations/
     - assets/pdfs/
+    - assets/user_schema.json
+    - assets/task_schema.json
 
   
   # An image asset can refer to one or more resolution-specific "variants", see

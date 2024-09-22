@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "patternProperties": {
+    "^[a-zA-Z0-9_-]{28}$": {
+      "type": "object",
+      "properties": {
+        "birthday": {
+          "type": "string",
+          "format": "date-time",
+          "description": "User's date of birth in UTC format"
+        },
+        "created_time": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Timestamp when the user was created in UTC format"
+        },
+        "display_name": {
+          "type": "string",
+          "description": "User's display name"
+        },
+        "email": {
+          "type": "string",
+          "format": "email",
+          "description": "User's email address"
+        },
+        "photo_url": {
+          "type": "string",
+          "format": "url",
+          "description": "URL to the user's profile picture"
+        },
+        "uid": {
+          "type": "string",
+          "pattern": "^[a-zA-Z0-9_-]{28}$",
+          "description": "Unique identifier for the user"
+        }
+      },
+      "required": ["created_time", "display_name", "email", "uid"],
+      "additionalProperties": false
+    }
+  }
+}
