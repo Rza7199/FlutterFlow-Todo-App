@@ -84,9 +84,9 @@ dependencies:
   sqflite: 2.2.6
   stream_transform: 2.1.0
   timeago: 3.6.1
-  url_launcher: 6.2.5
-  url_launcher_android: 6.3.0
-  url_launcher_ios: 6.2.5
+  url_launcher: 6.3.0
+  url_launcher_android: 6.3.4
+  url_launcher_ios: 6.3.1
   url_launcher_platform_interface: 2.3.2
   video_player: 2.8.6
   video_player_android: 2.4.16
@@ -129,8 +129,6 @@ flutter:
     - assets/lottie_animations/
     - assets/rive_animations/
     - assets/pdfs/
-    - assets/user_schema.json
-    - assets/task_schema.json
 
   
   # An image asset can refer to one or more resolution-specific "variants", see
